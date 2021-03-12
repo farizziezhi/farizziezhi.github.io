@@ -1,0 +1,156 @@
+#work {
+    min-height: 100vh;
+    background-color: #333;
+}
+
+#work .row .col-lg-4.mb-3 .card img {
+    width: auto;
+    height: 20rem;
+}
+
+#contact {
+    min-height: 60vh;
+    background-color: #fff;
+}
+
+#contact .container .row.justify-content-center.mt-3 .btn:hover {
+    background-color: rgb(22, 153, 153);
+    color: black;
+}
+
+#socialmedia {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+#socialmedia .icon{
+    display: flex;
+    justify-content: center;
+    margin: 25% auto;
+}
+
+#socialmedia .icon ul li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: auto 50px;
+    box-shadow: 3px 3px 10px #aeaeae,
+                -4px -4px 10px white ;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color: #333;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#socialmedia .icon ul li:nth-child(1):hover{
+    color: #eee;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#socialmedia .icon ul li:nth-child(2):hover{
+    color: #eee;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+#socialmedia .icon ul li:nth-child(3):hover{
+    color: #eee;
+    border-radius: 50%;
+    background-color: red;
+}
+
+@media screen and (max-width : 320px) {
+    #work {
+        min-height: 157vh;
+    }
+    #work .row .col-lg-4.mb-3 .card img {
+        width: auto;
+        height: auto;
+    }
+    #contact {
+        min-height: 100vh;
+        margin-top: 5rem;
+    }
+    #socialmedia .icon ul li{
+        width: 50px;
+        height: 50px;
+        margin: auto 10px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (min-width : 321px) and (max-width : 375px) {
+    #work {
+        min-height: 175vh;
+    }
+    #work .row .col-lg-4.mb-3 .card img {
+        width: auto;
+        height: auto;
+    }
+    #contact {
+        min-height: 100vh;
+        margin-top: 5rem;
+    }
+    #socialmedia .icon ul li{
+        width: 60px;
+        height: 60px;
+        margin: auto 20px;
+        font-size: 30px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width : 376px) and (max-width : 425px) {
+    #work {
+        min-height: 190vh;
+    }
+    #work .row .col-lg-4.mb-3 .card img {
+        width: auto;
+        height: auto;
+    }
+    #contact {
+        min-height: 100vh;
+        margin-top: 2rem;
+    }
+    #socialmedia .icon ul li{
+        width: 80px;
+        height: 80px;
+        margin: auto 20px;
+        font-size: 40px;
+        line-height: 80px;
+    }
+}
+
+@media screen and (min-width : 426px) and (max-width : 768px) {
+    #work {
+        min-height: 220vh;
+    }
+    #work .row .col-lg-4.mb-3 .card img {
+        width: auto;
+        height: auto;
+    }
+    #contact {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width : 769px) and (max-width : 1024px) {
+    #work {
+        min-height: 50vh;
+    }
+}
+footer {
+	padding:30px 0;
+	background-color: #333;
+	color: #fff;
+    text-align: center;
+    user-select: none;
+}
+footer a {
+    color: #fff;
+}
